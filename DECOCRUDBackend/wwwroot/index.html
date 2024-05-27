@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DECOCRUD Operation Project</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <h1>DECOCRUD Operation Project</h1>
+
+    <h2>List of Tenants</h2>
+    <ul id="tenantList"></ul>
+
+    <h2>List of Users</h2>
+    <ul id="userList"></ul>
+
+    <h2>Get Users by Tenant Key</h2>
+    <input type="text" id="tenantKeyInput" placeholder="Enter Tenant Key">
+    <button onclick="getUsersByTenant()">Get Users</button>
+    <ul id="tenantUserList"></ul>
+
+    <h2>Create New Tenant</h2>
+    <input type="text" id="newTenantId" placeholder="Tenant ID">
+    <input type="text" id="newTenantName" placeholder="Tenant Name">
+    <button onclick="createTenant()">Create Tenant</button>
+
+    <h2>Create New User</h2>
+    <input type="text" id="newUserId" placeholder="User ID">
+    <input type="text" id="newUserName" placeholder="User Name">
+    <input type="text" id="newUserTenantId" placeholder="Tenant ID">
+    <button onclick="createUser()">Create User</button>
+
+    <h2>Delete Tenant</h2>
+    <input type="text" id="tenantIdToDelete" placeholder="Tenant ID">
+    <button onclick="deleteTenant()">Delete Tenant</button>
+
+    <h2>Delete User</h2>
+    <input type="text" id="userIdToDelete" placeholder="User ID">
+    <button onclick="deleteUser()">Delete User</button>
+
+    <h2>Update Tenant</h2>
+    <input type="text" id="tenantIdToUpdate" placeholder="Tenant ID">
+    <input type="text" id="updatedTenantName" placeholder="Updated Tenant Name">
+    <button onclick="updateTenant()">Update Tenant</button>
+
+    <h2>Update User</h2>
+    <input type="text" id="userIdToUpdate" placeholder="User ID">
+    <input type="text" id="updatedUserName" placeholder="Updated User Name">
+    <input type="text" id="updatedUserTenantId" placeholder="Updated Tenant ID">
+    <button onclick="updateUser()">Update User</button>
+
+    <script src="/js/scripts.js"></script>
+</body>
+</html>

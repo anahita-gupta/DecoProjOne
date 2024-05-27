@@ -1,0 +1,77 @@
+{
+  "Version": 1,
+  "Hash": "3ao2CbWyzPqs1zJOiV7SIfSqYjQArUH1JN7l6TlBIug=",
+  "Source": "DECOCRUDBackend",
+  "BasePath": "_content/DECOCRUDBackend",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "DECOCRUDBackend/wwwroot",
+      "Source": "DECOCRUDBackend",
+      "ContentRoot": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/",
+      "BasePath": "_content/DECOCRUDBackend",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/css/styles.css",
+      "SourceId": "DECOCRUDBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/",
+      "BasePath": "_content/DECOCRUDBackend",
+      "RelativePath": "css/styles.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/css/styles.css"
+    },
+    {
+      "Identity": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/index.html",
+      "SourceId": "DECOCRUDBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/",
+      "BasePath": "_content/DECOCRUDBackend",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/index.html"
+    },
+    {
+      "Identity": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/js/scripts.js",
+      "SourceId": "DECOCRUDBackend",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/anahitagupta/DecoCrud/DECOCRUDBackend/wwwroot/",
+      "BasePath": "_content/DECOCRUDBackend",
+      "RelativePath": "js/scripts.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/js/scripts.js"
+    }
+  ]
+}

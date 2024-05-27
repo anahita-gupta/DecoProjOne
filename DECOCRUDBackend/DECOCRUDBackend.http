@@ -1,0 +1,6 @@
+@DECOCRUDBackend_HostAddress = http://localhost:5198
+
+GET {{DECOCRUDBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
